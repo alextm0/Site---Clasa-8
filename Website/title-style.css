@@ -1,0 +1,69 @@
+.section
+{
+	position: relative;
+	width: 100%;
+	height: 97vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.section h1
+{
+	align-items: center;
+	font-size: 2rem;
+	padding: 20px;
+	margin: 15px;
+	font-family: sans-serif;
+	z-index: 1;
+	margin-top: 225px;
+	margin-left: 270px;
+}
+.video-container
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+.color-overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color:lightblue;
+	width: 100%;
+	height: 97vh;
+	opacity: 0.5; 
+}
+
+
+.topnav
+{
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+.topnav a {
+  margin-top: 0;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0px 85px;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
